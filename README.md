@@ -1,9 +1,13 @@
 # Lunkcrypt
-**Lunkcrypt**, A Node.JS Command line (CLI) [AES-256](http://en.wikipedia.org/wiki/Advanced_Encryption_Standard)  File Encryption Tool.
+Node.JS Command line (CLI) AES-256 File Encryption Tool.
 
 #### Demo
 ![Demo](https://raw.githubusercontent.com/wookiecooking/lunkcrypt/master/demo.gif)
 
+[More Information About AES](http://en.wikipedia.org/wiki/Advanced_Encryption_Standard) 
+
+#### Install
+	npm install -g lunkcrypt
 #####Encrypt : 
 	lunk -e somefile.txt -p "some random password"
 #####Decrypt :
