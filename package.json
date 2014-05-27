@@ -1,7 +1,7 @@
 { 
   "name": "lunkcrypt", 
   "main": "app.js",
-  "version":"0.0.55",
+  "version":"0.0.551",
   "dependencies": {
     "commander": "*",
     "wrench": "*"
