@@ -1,0 +1,12 @@
+{ 
+  "name": "lunkcrypt", 
+  "main": "app.js",
+  "version":"0.0.5",
+  "dependencies": {
+    "commander": "*",
+    "wrench": "*"
+  },
+  "bin": {
+    "lunk": "./app.js"
+  }
+}
