@@ -6,6 +6,10 @@
     "commander": "*",
     "wrench": "*"
   },
+  "repository" : { 
+    "type" : "git"
+    , "url" : "https://github.com/wookiecooking/lunkcrypt.git"
+  },
   "bin": {
     "lunk": "./app.js"
   }
