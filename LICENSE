@@ -1,24 +1,3 @@
-# Lunkcrypt
-Quick and gritty AES-256 file encryption cli.
-
-#### Demo
-![Demo](https://raw.githubusercontent.com/wookiecooking/lunkcrypt/master/demo.gif)
-
-[More Information About AES](http://en.wikipedia.org/wiki/Advanced_Encryption_Standard)
-
-### Install
-	`npm install -g lunkcrypt`
-### Encrypt :
-	lunk -e somefile.txt -p "some random password"
-### Decrypt :
-	lunk -d somefile.txt -p "some random password"
-### Recursive :
-	lunk -er somefolder/ -p "some random password"
-### Generate Password :
-	lunk -ge somefile.txt
-
-### License
-```
 The MIT License (MIT)
 
 Copyright (c) YEAR NAME
@@ -39,5 +18,3 @@ FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
 COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
 IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-```
-

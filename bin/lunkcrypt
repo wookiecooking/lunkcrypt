@@ -1,0 +1,44 @@
+#!/usr/bin/env node
+
+var generatePassword=  require('../lib/generatePassword'),
+file=  require('../lib/file'),
+helper=  require('../lib/help'),
+recursive=  require('../lib/recurse'),
+commander=  require('commander');
+
+
+commander
+  .version('0.1.0')
+  .option('-p, --password [pass]', 'Password for file')
+  .option('-d, --decrypt [file]', 'decrypt')
+  .option('-e, --encrypt [file]', 'encrypt')
+  .option('-g, --generate', 'Generate Password')
+  .option('-r, --recursive [folder]', 'recursive')
+  .on('--help', helper)
+  .parse(process.argv);
+
+
+if (commander.encrypt) {
+  var key;
+  if(commander.generate){
+    key= generatePassword(25);
+  } else {
+    key= commander.password;
+  }
+  if(commander.recursive) {
+    recursive(commander.recursive, key, true)
+  } else {
+    file(commander.encrypt, key, true)
+  }
+  if(commander.generate) {
+    console.log('Password is '+ key)
+  }
+}
+
+if (commander.decrypt) {
+  if(commander.recursive) {
+    recursive(commander.recursive, commander.password)
+  } else {
+    file(commander.decrypt, commander.password)
+  }
+}

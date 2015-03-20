@@ -1,16 +1,21 @@
-{ 
-  "name": "lunkcrypt", 
-  "main": "app.js",
-  "version":"0.0.552",
+{
+  "name": "lunkcrypt",
+  "main": "bin/lunkcrypt",
+  "version":"0.1.0",
   "dependencies": {
-    "commander": "*",
-    "wrench": "*"
+    "commander": "latest",
+    "wrench": "latest"
   },
-  "repository" : { 
-    "type" : "git"
-    , "url" : "https://github.com/wookiecooking/lunkcrypt.git"
+  "keywords":"encryption, aes, security",
+  "description":"Quick and gritty AES-256 file encryption cli.",
+   "author": [
+    { "name" : "Austin Turnage", "email" : "austin@datarats.com", "url" : "http://austinturnage.com"  }
+  ],
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/wookiecooking/lunkcrypt.git"
   },
   "bin": {
-    "lunk": "./app.js"
+    "lunk": "./bin/lunkcrypt"
   }
 }
