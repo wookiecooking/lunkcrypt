@@ -21,7 +21,7 @@ Quick and gritty AES-256 file encryption cli.
 ```
 The MIT License (MIT)
 
-Copyright (c) YEAR NAME
+Copyright (c) 2015 Austin Turnage
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in
