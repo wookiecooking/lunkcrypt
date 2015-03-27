@@ -1,23 +1,44 @@
 # Lunkcrypt
+
+# [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![NPM Downloads][npm-downloads]][npm-url]
 Quick and gritty AES-256 file encryption cli.
 
-#### Demo
+## Demo
 ![Demo](https://raw.githubusercontent.com/wookiecooking/lunkcrypt/master/demo.gif)
 
 [More Information About AES](http://en.wikipedia.org/wiki/Advanced_Encryption_Standard)
 
-### Install
-	`npm install -g lunkcrypt`
-### Encrypt :
-	lunk -e somefile.txt -p "some random password"
-### Decrypt :
-	lunk -d somefile.txt -p "some random password"
-### Recursive :
-	lunk -er somefolder/ -p "some random password"
-### Generate Password :
-	lunk -ge somefile.txt
+## Install
 
-### License
+NPM Cli
+```sh
+$ [sudo] npm install --global lunkcrypt
+```
+
+## Usage
+
+#### Encrypt :
+```sh
+$ lunk -e somefile.txt -p "some random password"
+```
+
+#### Decrypt :
+```sh
+$ lunk -d somefile.txt -p "some random password"
+```
+
+#### Recursive :
+```sh
+$ lunk -er somefolder/ -p "some random password"
+```
+
+#### Generate Password :
+```sh
+$ lunk -ge somefile.txt
+```
+
+## License
+
 ```
 The MIT License (MIT)
 
@@ -41,3 +62,8 @@ IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
 
+[npm-downloads]: https://img.shields.io/npm/dm/lunkcrypt.svg
+[npm-image]: https://badge.fury.io/js/lunkcrypt.svg
+[npm-url]: https://npmjs.org/package/lunkcrypt
+[travis-image]: https://travis-ci.org/wookiecooking/lunkcrypt.svg?branch=master
+[travis-url]: https://travis-ci.org/wookiecooking/lunkcrypt

@@ -1,10 +1,21 @@
 {
   "name": "lunkcrypt",
   "main": "bin/lunkcrypt",
-  "version":"0.1.0",
+  "version":"0.2.0",
   "dependencies": {
     "commander": "latest",
     "wrench": "latest"
+  },
+  "devDependencies": {
+    "mocha": "latest",
+    "must": "latest",
+    "gulp": "latest",
+    "gulp-jshint": "latest",
+    "gulp-mocha": "latest",
+    "jshint-stylish": "latest"
+  },
+ "scripts": {
+    "test": "./node_modules/gulp/bin/gulp.js test"
   },
   "keywords":"encryption, aes, security",
   "description":"Quick and gritty AES-256 file encryption cli.",

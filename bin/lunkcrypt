@@ -26,19 +26,19 @@ if (commander.encrypt) {
     key= commander.password;
   }
   if(commander.recursive) {
-    recursive(commander.recursive, key, true)
+    recursive(commander.recursive, key, true);
   } else {
-    file(commander.encrypt, key, true)
+    file(commander.encrypt, key, true);
   }
   if(commander.generate) {
-    console.log('Password is '+ key)
+    console.log('Password is '+ key);
   }
 }
 
 if (commander.decrypt) {
   if(commander.recursive) {
-    recursive(commander.recursive, commander.password)
+    recursive(commander.recursive, commander.password);
   } else {
-    file(commander.decrypt, commander.password)
+    file(commander.decrypt, commander.password);
   }
 }
