@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 
-var generatePassword=  require('../lib/generatePassword'),
-file=  require('../lib/file'),
-helper=  require('../lib/help'),
-recursive=  require('../lib/recurse'),
-commander=  require('commander');
+var generatePassword    =  require('../lib/generatePassword'),
+var file                =  require('../lib/file');
+var helper              =  require('../lib/help');
+var recursive           =  require('../lib/recurse');
+var commander           =  require('commander');
 
 
 commander
