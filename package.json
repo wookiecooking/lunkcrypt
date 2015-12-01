@@ -28,5 +28,6 @@
   },
   "bin": {
     "lunk": "./bin/lunkcrypt"
-  }
+  },
+  "license": "MIT"
 }
