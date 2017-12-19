@@ -1,5 +1,5 @@
 # Lunkcrypt
-
+> :warning: **THIS REPOSITORY IS NOT MAINTAINED ANYMORE. IF YOU WOULD LIKE TO VOLUNTEER TO BE THE MAINTAINER, PLEASE OPEN AN ISSUE
 > Quick and gritty AES-256 file encryption cli.
 
 ## Demo
