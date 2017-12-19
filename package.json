@@ -1,10 +1,10 @@
 {
   "name": "lunkcrypt",
   "main": "bin/lunkcrypt",
-  "version":"1.0.1",
+  "version": "1.0.1",
   "dependencies": {
-    "commander": "latest",
-    "wrench": "latest"
+    "commander": "^2.12.2",
+    "wrench": "^1.5.9"
   },
   "devDependencies": {
     "mocha": "latest",
@@ -14,17 +14,21 @@
     "gulp-mocha": "latest",
     "jshint-stylish": "latest"
   },
- "scripts": {
+  "scripts": {
     "test": "./node_modules/gulp/bin/gulp.js test"
   },
-  "keywords":"encryption, aes, security",
-  "description":"Quick and gritty AES-256 file encryption cli.",
-   "author": [
-    { "name" : "Austin Turnage", "email" : "austin@datarats.com", "url" : "http://austinturnage.com"  }
+  "keywords": "encryption, aes, security",
+  "description": "Quick and gritty AES-256 file encryption cli.",
+  "author": [
+    {
+      "name": "Austin Turnage",
+      "email": "austin@datarats.com",
+      "url": "http://austinturnage.com"
+    }
   ],
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/wookiecooking/lunkcrypt.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wookiecooking/lunkcrypt.git"
   },
   "bin": {
     "lunk": "./bin/lunkcrypt"
