@@ -1,7 +1,6 @@
 # Lunkcrypt
 
-# [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![NPM Downloads][npm-downloads]][npm-url]
-Quick and gritty AES-256 file encryption cli.
+> Quick and gritty AES-256 file encryption cli.
 
 ## Demo
 ![Demo](https://raw.githubusercontent.com/wookiecooking/lunkcrypt/master/demo.gif)
@@ -61,9 +60,3 @@ COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
 IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
-
-[npm-downloads]: https://img.shields.io/npm/dm/lunkcrypt.svg
-[npm-image]: https://badge.fury.io/js/lunkcrypt.svg
-[npm-url]: https://npmjs.org/package/lunkcrypt
-[travis-image]: https://travis-ci.org/wookiecooking/lunkcrypt.svg?branch=master
-[travis-url]: https://travis-ci.org/wookiecooking/lunkcrypt
